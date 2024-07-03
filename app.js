@@ -44,6 +44,7 @@ const addTask = (event) => {
                  <input type="text" placeholder="add task" />
              </form>
        </div> */
+       
     const myDiv = document.createElement("div");
     const myH3 = document.createElement("h3");
     const myForm = document.createElement("form");
