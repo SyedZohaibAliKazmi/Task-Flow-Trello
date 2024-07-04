@@ -11,18 +11,18 @@ body {
 nav {
   margin-top: 25px;
   height: 50px;
-  background-color:rgba(255, 255, 255, 0.534);
+  background-color: rgba(255, 255, 255, 0.534);
   border-radius: 50px;
   padding: 0px 40px;
 }
-.nav-main h1{
+.nav-main h1 {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-size: 40px;
   font-weight: 700;
-  color:  rgb(255, 123, 0) ;
+  color: rgb(255, 123, 0);
   /* height: 20px;
   padding: 24px; */
 }
@@ -47,7 +47,6 @@ nav {
 /* ======================================== main =============================== */
 .main {
   display: flex;
-  
 }
 
 /* .right {
@@ -152,44 +151,40 @@ main {
   padding: 5px 5px 5px 27px;
 }
 
-
-#addCard{
+#addCard {
   width: 90px;
   height: 30px;
   border-radius: 5px;
-  border:none;
+  border: none;
   outline: noe;
   background-color: rgb(255, 178, 106);
   color: black;
   font-size: 18px;
 }
-#addCard:hover{
-  background-color: rgb(255, 123, 0) ;
+#addCard:hover {
+  background-color: rgb(255, 123, 0);
   border: rgb(255, 205, 159);
   outline: rgb(255, 215, 177);
 }
 
-
 /* ================================================== For Tablet =============================================== */
 
 @media screen and (max-width: 768px) {
-
   nav {
     margin-top: 24px;
     height: 44px;
-    background-color:rgba(255, 255, 255, 0.534);
+    background-color: rgba(255, 255, 255, 0.534);
     border-radius: 46px;
     padding: 0px 40px;
   }
-  .nav-main h1{
+  .nav-main h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    color:  rgb(255, 123, 0) ;
-    
+    color: rgb(255, 123, 0);
   }
 
   .column {
@@ -204,7 +199,6 @@ main {
     flex-direction: column;
     gap: 20px;
   }
-
 
   .column > h3 {
     text-transform: capitalize;
@@ -237,33 +231,26 @@ main {
     font-size: 18px;
     padding: 5px 5px 5px 27px;
   }
-  
-
-
 }
-
 
 /* ================================================== For Mobile 414*869 =============================================== */
 
-
-@media screen and (max-width:414px) {
-
+@media screen and (max-width: 414px) {
   nav {
     margin-top: 22px;
     height: 40px;
-    background-color:rgba(255, 255, 255, 0.534);
+    background-color: rgba(255, 255, 255, 0.534);
     border-radius: 42px;
     padding: 0px 40px;
   }
-  .nav-main h1{
+  .nav-main h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 32px;
     font-weight: 700;
-    color:  rgb(255, 123, 0) ;
-    
+    color: rgb(255, 123, 0);
   }
 
   .column {
@@ -278,7 +265,6 @@ main {
     flex-direction: column;
     gap: 20px;
   }
-
 
   .column > h3 {
     text-transform: capitalize;
@@ -311,32 +297,26 @@ main {
     font-size: 18px;
     padding: 5px 5px 5px 27px;
   }
-  
-
-
 }
 
 /* ================================================== For Mobile 380*667 =============================================== */
 
-
-@media screen and (max-width:380px) {
-
+@media screen and (max-width: 380px) {
   nav {
     margin-top: 22px;
     height: 36px;
-    background-color:rgba(255, 255, 255, 0.534);
+    background-color: rgba(255, 255, 255, 0.534);
     border-radius: 38px;
     padding: 0px 36px;
   }
-  .nav-main h1{
+  .nav-main h1 {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     font-size: 30px;
     font-weight: 700;
-    color:  rgb(255, 123, 0) ;
-    
+    color: rgb(255, 123, 0);
   }
 
   .column {
@@ -351,7 +331,6 @@ main {
     flex-direction: column;
     gap: 20px;
   }
-
 
   .column > h3 {
     text-transform: capitalize;
@@ -384,6 +363,4 @@ main {
     font-size: 16px;
     padding: 5px 5px 5px 27px;
   }
-  
-
 }
